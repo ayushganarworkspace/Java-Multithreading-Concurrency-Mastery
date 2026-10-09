@@ -1,1 +1,22 @@
-
+java-multithreading-mastery/
+├── README.md
+├── docs/
+│   ├── 01-thread-lifecycle.md
+│   ├── 02-synchronization-locks.md
+│   ├── 03-executors-and-threadpools.md
+│   └── 04-concurrency-utilities.md
+├── src/
+│   ├── main/java/com/multithreading/
+│   │   ├── project/
+│   │   │   ├── Order.java
+│   │   │   ├── SharedOrderQueue.java
+│   │   │   ├── OrderProducer.java
+│   │   │   ├── OrderConsumer.java
+│   │   │   └── OrderProcessingApp.java
+│   │   └── examples/
+│   │       ├── DeadlockDemo.java
+│   │       ├── ReentrantLockDemo.java
+│   │       └── CompletableFutureDemo.java
+│   └── test/java/com/multithreading/
+│       └── OrderQueueTest.java
+└── pom.xml (or build.gradle)
